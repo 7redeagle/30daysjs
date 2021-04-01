@@ -24,7 +24,7 @@ function randomColor() {
 }
 
 document.querySelector("#logo").onclick = () => {
-  location.href = "/index.html";
+  location.href = "https://github.com/7redeagle";
 }
 
 
