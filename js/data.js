@@ -1,9 +1,12 @@
 // object array 
-const data = {
-  day1: {
-    background: '#white',
-    logo: "",
-    demo: "",
-    code: "",
-  }
-}
+const challenges = [{
+  name: "Day 01 - Javascript Drum Kit",
+  logo: "",
+  demo: "",
+  code: "",
+}, {
+  name: "Day 01 - Javascript Drum Kit",
+  logo: "",
+  demo: "",
+  code: "",
+}, ]
