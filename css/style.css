@@ -18,16 +18,43 @@ body {
   font-size: var(--font-text-size);
 }
 
+h1,
 h2,
 h3 {
   color: var(--gray-1);
   font-weight: 700;
 }
 
+#logo {
+  display: block;
+  cursor: pointer;
+  height: 5em;
+  width: 5em;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+  background-color: var(--black-0);
+  color: var(--white-4);
+  border: 1px solid var(--black-0);
+  padding: .2em;
+  transition: .03s transform ease-out;
+}
+
+a:hover {
+  box-shadow: 0 .5rem 1rem rgb(0 1 1 / 50%);
+}
+
 .grid {
   width: 100%;
   max-width: 60rem;
-  margin: auto;
+  margin: 3em auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, 12rem);
   row-gap: 4rem;
@@ -55,9 +82,9 @@ h3 {
   margin: .2em;
 }
 
-/* .card:hover {
-  transform: translateY(-.5rem);
-} */
+.card:hover {
+  box-shadow: 0 .5rem 1rem rgb(0 1 1 / 50%);
+}
 
 .card i {
   color: var(--white-4);
@@ -69,12 +96,11 @@ h3 {
   color: var(--black-0);
   border: 1px solid var(--white-4);
   padding: .2em;
-
   transition: .03s transform ease-out;
 }
 
 a:hover {
-  transform: translateY(-.5rem);
+  transform: translateY(-.1rem);
   /* box-shadow: 1px 1px 5px var(--white-3); */
 }
 
@@ -89,32 +115,3 @@ a:hover {
   right: 1rem;
   bottom: 1rem;
 }
-
-/* :root {
-     --blue: #1e90ff;
-     --white: #ffffff;
-   }
-
- --cryptee-green: #1DB954;
-    --cryptee-yellow: #F2B202;
-    --cryptee-red: #CC0101;
-    --cryptee-blue: #087284;
-    --oled-safe-black: #080808;
-    --cryptee-0: #121212;
-    --cryptee-folder: #222222;
-    --cryptee-1: #363636;
-    --cryptee-2: #888888;
-    --cryptee-3: #CCCCCC;
-    --cryptee-4: #F5F5F5;
-    
-   
-
-background: cryptee-4
-font-color-text: cryptee-1
-font-color-heading: crytee-1 (font-weight: 700)
-font-color-captio-small-text: cryptee-2
-footer: black 
-footer-text: cryptee-4
-
-text-font-family: 'Josefin Sans', sans-serif;
-font-size: 16px; */

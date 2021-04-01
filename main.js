@@ -23,6 +23,10 @@ function randomColor() {
     .join('');
 }
 
+document.querySelector("#logo").onclick = () => {
+  location.href = "/index.html";
+}
+
 
 
 // generate card data from object challenges
@@ -32,8 +36,8 @@ challenges.forEach(challenge =>
     `<div class="card">
       <i class="fas ${challenge.logo} fa-2x"></i>
       <h3>Day ${challenge.name}</h3>
-      <a class="card__demo" href="challenges/${challenge.name}">Demo</a>
-      <a class="card__code" href="${challenge.code}">Code</a>
+      <a class="card__demo" href="challenges/${challenge.name}" target="_blank">Demo</a>
+      <a class="card__code" href="${challenge.code}" target="_blank">Code</a>
     </div>`)
 )
 

@@ -3,11 +3,11 @@ const challenges = [{
   logo: "fa-drum",
   code: ""
 }, {
-  name: "02 - JS And CSS Clock",
+  name: "02 - JS and CSS Clock",
   logo: "fa-clock",
   code: ""
 }, {
-  name: "03 - Playing with CSS Variables and JS",
+  name: "03 - CSS Variables",
   logo: "fa-file-code",
   code: ""
 }, {
