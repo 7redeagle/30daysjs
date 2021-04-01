@@ -23,15 +23,23 @@ function randomColor() {
     .join('');
 }
 
+
+
+// generate card data from object challenges
+const projectSection = document.querySelector(".grid");
+challenges.forEach(challenge =>
+  projectSection.insertAdjacentHTML("beforeend",
+    `<div class="card">
+      <i class="fas ${challenge.logo} fa-2x"></i>
+      <h3>${challenge.name}</h3>
+      <a class="card__demo" href="${challenge.demo}">Demo</a>
+      <a class="card__code" href="${challenge.code}">Code</a>
+    </div>`)
+)
+
 // Generate random colors for each div 
 const cards = document.querySelectorAll('.card');
 for (const card of cards) {
   card.style.background = '#' + randomColor();
   console.log(card.style.background);
 }
-
-challenges.forEach (challenge => 
-  document.body.insertAdjacentHTML("beforeend", 
-  ``
-  
-  ))

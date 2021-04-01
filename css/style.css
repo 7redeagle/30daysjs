@@ -10,13 +10,16 @@
 }
 
 body {
+  padding: 5rem;
   background: var(--white-4);
   color: var(--gray-1);
+  height: auto;
 
   /* font-color-heading: crytee-1 (font-weight: 700) font-color-captio-small-text: cryptee-2 footer: black footer-text: cryptee-4 */
 }
 
-h2 {
+h2,
+h3 {
   color: var(--gray-1);
   font-weight: 700;
 }
@@ -35,7 +38,6 @@ h2 {
 }
 
 .card {
-
   grid-column: span 1;
   height: 10rem;
   padding: 1rem;
@@ -46,7 +48,7 @@ h2 {
   border-radius: 0.5rem;
 }
 
-.card h2 {
+.card h3 {
   color: var(--white-4);
 }
 
@@ -55,7 +57,24 @@ h2 {
 }
 
 .card i {
-  color: white;
+  color: var(--white-4);
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--white-4);
+}
+
+.card__demo {
+  position: absolute;
+  right: 4rem;
+  bottom: 1rem;
+}
+
+.card__code {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
 }
 
 /* :root {
