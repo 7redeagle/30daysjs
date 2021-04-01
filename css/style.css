@@ -14,8 +14,8 @@ body {
   background: var(--white-4);
   color: var(--gray-1);
   height: auto;
-
-  /* font-color-heading: crytee-1 (font-weight: 700) font-color-captio-small-text: cryptee-2 footer: black footer-text: cryptee-4 */
+  font-family: var(--font-text);
+  font-size: var(--font-text-size);
 }
 
 h2,
@@ -35,16 +35,18 @@ h3 {
   grid-auto-flow: row;
   opacity: 1;
   transition: 0.3s opacity var(--transition);
+  justify-content: center;
 }
 
 .card {
+  background-color: var(--black-0);
   grid-column: span 1;
   height: 10rem;
   padding: 1rem;
   position: relative;
   box-shadow: 0 .5rem 1rem rgb(0 0 0 / 20%);
   cursor: pointer;
-  transition: 0.3s box-shadow var(--transition), .03s transform ease-out;
+  transition: 0.3s box-shadow var(--transition);
   border-radius: 0.5rem;
 }
 
@@ -52,9 +54,9 @@ h3 {
   color: var(--white-4);
 }
 
-.card:hover {
+/* .card:hover {
   transform: translateY(-.5rem);
-}
+} */
 
 .card i {
   color: var(--white-4);
@@ -63,6 +65,14 @@ h3 {
 .card a {
   text-decoration: none;
   color: var(--white-4);
+  border: 1px solid var(--white-4);
+  padding: .2em;
+  transition: .03s transform ease-out;
+}
+
+a:hover {
+  transform: translateY(-.5rem);
+  /* box-shadow: 1px 1px 5px var(--white-3); */
 }
 
 .card__demo {

@@ -37,9 +37,9 @@ challenges.forEach(challenge =>
     </div>`)
 )
 
-// Generate random colors for each div 
-const cards = document.querySelectorAll('.card');
-for (const card of cards) {
-  card.style.background = '#' + randomColor();
-  console.log(card.style.background);
-}
+// // Generate random colors for each div 
+// const cards = document.querySelectorAll('.card');
+// for (const card of cards) {
+//   card.style.background = '#' + randomColor();
+//   console.log(card.style.background);
+// }
