@@ -52,6 +52,7 @@ h3 {
 
 .card h3 {
   color: var(--white-4);
+  margin: .2em;
 }
 
 /* .card:hover {
@@ -68,6 +69,7 @@ h3 {
   color: var(--black-0);
   border: 1px solid var(--white-4);
   padding: .2em;
+
   transition: .03s transform ease-out;
 }
 

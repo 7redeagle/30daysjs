@@ -63,11 +63,59 @@ const challenges = [{
   logo: "fa-mouse",
   code: ""
 }, {
-  name: "08 - Fun with HTML5 Canvas",
-  logo: "fa-fill",
+  name: "17 - Sort Without Articles",
+  logo: "fa-sort",
   code: ""
 }, {
-  name: "09 - Dev Tools Domination",
-  logo: "fa-terminal",
+  name: "18 - Adding Up Times with Reduce ",
+  logo: "fa-stopwatch",
   code: ""
-}];
+}, {
+  name: "19 - Webcam Fun",
+  logo: "fa-camera",
+  code: ""
+}, {
+  name: "20 - Speech Detection",
+  logo: "fa-microphone",
+  code: ""
+}, {
+  name: "21 - Geolocation",
+  logo: "fa-map-marker-alt",
+  code: ""
+}, {
+  name: "22 - Follow Along Link Highlighter",
+  logo: "fa-highlighter",
+  code: ""
+}, {
+  name: "23 - Speech Synthesis",
+  logo: "fa-comments",
+  code: ""
+}, {
+  name: "24 - Sticky Nav",
+  logo: "fa-bars",
+  code: ""
+}, {
+  name: "25 - Event Capture, Propagation, Bubbling and Once",
+  logo: "fa-soap",
+  code: ""
+}, {
+  name: "26 - Stripe Follow Along Nav",
+  logo: "fa-caret-down",
+  code: ""
+}, {
+  name: "27 - Click and Drag",
+  logo: "fa-mouse-pointer",
+  code: ""
+}, {
+  name: "28 - Video Speed Controller",
+  logo: "fa-play",
+  code: ""
+}, {
+  name: "29 - Countdown Timer",
+  logo: "fa-stopwatch-20",
+  code: ""
+}, {
+  name: "30 - Whack a Mole",
+  logo: "fa-gavel",
+  code: ""
+}, ];
