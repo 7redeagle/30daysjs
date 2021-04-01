@@ -32,7 +32,7 @@ challenges.forEach(challenge =>
     `<div class="card">
       <i class="fas ${challenge.logo} fa-2x"></i>
       <h3>Day ${challenge.name}</h3>
-      <a class="card__demo" href="challenges/${challenge.name}/index.html">Demo</a>
+      <a class="card__demo" href="challenges/${challenge.name}">Demo</a>
       <a class="card__code" href="${challenge.code}">Code</a>
     </div>`)
 )

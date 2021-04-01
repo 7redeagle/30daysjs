@@ -64,7 +64,8 @@ h3 {
 
 .card a {
   text-decoration: none;
-  color: var(--white-4);
+  background-color: var(--white-4);
+  color: var(--black-0);
   border: 1px solid var(--white-4);
   padding: .2em;
   transition: .03s transform ease-out;
